@@ -46,5 +46,7 @@ The discrete layer augments the continuous layer:
 ![Alt text](images/image-1.png)
 
 
+Images from: http://www.squidi.net/three/entry.php?id=54
+
 -----------
 
