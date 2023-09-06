@@ -12,20 +12,16 @@ This problem can be broken down into a few main things:
         - (user-supplied validity checks)
     - automatic backtracking / re-generation of layers
 
-And then, after the world has been generated:
-
-- Spawn entities
-- Serialize/save world generation state:
-    Save the world-generation state (i.e. able to resume generation at later date)
-    Save the SGCtx object
-
+After everything is generated, a `WorldSegment` object is made.
+The WorldSegment contains information that will allow us to
+generate entities.
 
 
 ------------------
 
 How about we have 2 types of "layers" in SuperGen:
-- continuous layers (noiseMap, where all integer x,y positions in the layer have a value)
-- discrete layers (like a list of rooms, for example)
+- uniform layers (all integer x,y positions have a value)
+- discrete layers (a list of nodes; i.e list of rooms)
 
 
 
@@ -49,4 +45,13 @@ The discrete layer augments the continuous layer:
 Images from: http://www.squidi.net/three/entry.php?id=54
 
 -----------
+
+
+# Ideas for future:
+
+
+- Spawn entities
+- Serialize/save world generation state:
+    Save the world-generation state (i.e. able to resume generation at later date)
+    Save the SGCtx object
 
