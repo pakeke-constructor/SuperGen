@@ -8,8 +8,8 @@ A list of objects that we will need:
 
 
 NumberLayer -- each (x,y) position has a number
-
-DiscreteLayer
+ValueLayer -- each (x,y) position maps to a Tile.
+DiscreteLayer -- a list of Nodes.
 
 Node -- represents an object within a discrete layer
 

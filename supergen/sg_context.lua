@@ -4,6 +4,9 @@
 
 supergen contexts are structures that keep track of the generation state.
 
+
+TODO: Do we need this object?
+
 ]]
 
 local SGContext = {}
