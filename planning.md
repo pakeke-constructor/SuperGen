@@ -9,8 +9,6 @@ This problem can be broken down into a few main things:
     - generating layers
     - combining layers
     - checking validity of layers
-        - (user-supplied validity checks)
-    - automatic backtracking / re-generation of layers
 
 After everything is generated, a `WorldSegment` object is made.
 The WorldSegment contains information that will allow us to

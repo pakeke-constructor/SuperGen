@@ -25,3 +25,6 @@ local function newNode(x, y, nodeType)
     }
 end
 
+
+return newNode
+
